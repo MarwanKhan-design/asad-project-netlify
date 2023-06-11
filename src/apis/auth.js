@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = "https://happy-blue-jeans.cyclic.app/api";
+const api = "https://tame-ruby-cardigan.cyclic.app/api";
 
 export const loginApi = async (formData) => {
   const jwtKey = await axios.post(`${api}/auth`, formData);

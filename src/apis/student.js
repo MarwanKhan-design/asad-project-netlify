@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = "https://happy-blue-jeans.cyclic.app/api/student";
+const api = "https://tame-ruby-cardigan.cyclic.app/api/student";
 
 export const createStudentApi = async (data) => {
   const students = await axios.post(`${api}/`, data);
